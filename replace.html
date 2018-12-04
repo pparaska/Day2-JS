@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button toreplace</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var arr = [100,200,400,400,500];
+    
+    var arr1= arr.replace(400,40);
+    document.getElementById("demo").innerHTML = arr1;
+}
+</script>
+
+</body>
+</html>

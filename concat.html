@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to join two arrays.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var name = ["John", "Jack"];
+    var surname = ["Taylor", "Fay", "Ritch"];
+    var children = name.concat(surname); 
+    document.getElementById("demo").innerHTML = children;
+}
+</script>
+
+</body>
+</html>
